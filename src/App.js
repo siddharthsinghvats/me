@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min";
+import About from "./components/About";
+import Home from "./components/Home";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
+import Code from "./components/Code";
+import Error from "./components/Error";
+import "./index.css";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import Charts from "./components/Charts";
+import Contact from "./components/Contact";
+import Gallery from "./components/Gallery";
+import Photos from "./components/Photos";
+import Art from "./components/Art";
+import Poetry from "./components/Poetry";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Nav />
+        <Routes>
+          <Route exact path="/" element={<Home/>}/>
+          <Route exact path="/about" element={<About/>}/>
+          <Route exact path="/code" element={<Code/>}/>
+          <Route exact path ="/contact" element={<Contact/>}/>
+          <Route exact path="/gallery" element={<Photos/>}/>
+          <Route exact path="/arts" element={<Art/>}/>
+          <Route exact path="/poetry" element={<Poetry/>}/>
+          <Route path='*' element={<Error/>}/>
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </>
   );
-}
+};
 
 export default App;
