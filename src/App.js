@@ -19,7 +19,7 @@ import Poetry from "./components/Poetry";
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Nav />
         <Routes>
           <Route exact path="/" element={<Home/>}/>
