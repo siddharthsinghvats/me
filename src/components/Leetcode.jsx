@@ -32,7 +32,7 @@ const Leetcode = (props) => {
          cfdata.push([i,cf.get(i),colors[(i-800)/100]]);
       }
   }
-  window.onresize = function(){ window.location.reload(); }
+  // window.onresize = function(){ window.location.reload(); }
   return (
     <>
     <div className="cp">
