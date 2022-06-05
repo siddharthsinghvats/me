@@ -516,7 +516,7 @@ h3{
 }
 .poems{
   height: 600px;
-  width:100%;
+  width:60%;
   overflow-y: scroll;
   display:grid;
   place-items: center;
