@@ -533,7 +533,7 @@ h3{
       height: 100%;
     }
  .poem1{
-  width:95%;
+  width:100%;
  }
  .auth-logo{
   width:100%;
@@ -582,7 +582,7 @@ h3{
 
 .poem1{
   padding:4%;
-  width:70%;
+  width:90%;
   box-shadow: 8px 8px 15px rgb(73, 72, 72);
   border-radius: 20px;
   margin-bottom: 5%;
