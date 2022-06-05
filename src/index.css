@@ -532,6 +532,12 @@ h3{
     .poems{
       height: 100%;
     }
+ .poem1{
+  width:95%;
+ }
+ .auth-logo{
+  width:100%;
+ }
 }
 
 .poems::-webkit-scrollbar{
