@@ -32,7 +32,7 @@ const Leetcode = (props) => {
          cfdata.push([i,cf.get(i),colors[(i-800)/100]]);
       }
   }
-  window.onresize = function(){ window.location.reload(); }
+  // window.onresize = function(){ window.location.reload(); }
   return (
     <>
     <div className="cp">
@@ -93,8 +93,8 @@ const Leetcode = (props) => {
               <h2>Hackerrank</h2>
             </div>
             <div className="prof">
-                <a href="https://www.hackerrank.com/LCS2020002">
-                <button className="profbtn btn btn-outline-dark">Profile  <ArrowRightIcon/></button>
+                <a target="blank" href="https://www.hackerrank.com/LCS2020002">
+                <button className="profbtn btn btn-outline-dark">Profile</button>
                 </a>
             </div>
           </div>
@@ -104,8 +104,8 @@ const Leetcode = (props) => {
               <h2>Hackerearth</h2>
             </div>
             <div className="prof">
-                <a href="https://www.hackerearth.com/@lcs2020002">
-                <button className="profbtn btn btn-outline-dark">Profile  <ArrowRightIcon/></button>
+                <a target="blank" href="https://www.hackerearth.com/@lcs2020002">
+                <button className="profbtn btn btn-outline-dark">Profile</button>
                 </a>
             </div>
           </div>

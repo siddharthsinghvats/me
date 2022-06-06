@@ -14,8 +14,8 @@ const Goback = (props) => {
   return (
     <>
         <div className="goback">
-        <button onClick={()=>{navigate(-1)}}><ArrowBackOutlinedIcon sx={{  fontSize: "30px" }}/></button>
-        <button onClick={()=>{navigate(1)}}><ArrowForwardOutlinedIcon sx={{  fontSize: "30px" }}/></button>
+          <button className="go-button" onClick={()=>{navigate(-1)}}><ArrowBackOutlinedIcon sx={{  fontSize: "30px" }}/></button>
+          <button className="go-button" onClick={()=>{navigate(1)}}><ArrowForwardOutlinedIcon sx={{  fontSize: "30px" }}/></button>
         </div>
     </>
   );

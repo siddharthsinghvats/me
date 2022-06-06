@@ -15,6 +15,7 @@ import Gallery from "./components/Gallery";
 import Photos from "./components/Photos";
 import Art from "./components/Art";
 import Poetry from "./components/Poetry";
+import Project from "./components/Project";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
           <Route exact path="/gallery" element={<Photos/>}/>
           <Route exact path="/arts" element={<Art/>}/>
           <Route exact path="/poetry" element={<Poetry/>}/>
+          <Route exact path="/projects" element={<Project/>}/>
           <Route path='*' element={<Error/>}/>
         </Routes>
         <Footer />

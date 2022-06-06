@@ -61,7 +61,7 @@ const Contact = () => {
                   </li>
                   <li className="main-li">
                     <GitHubIcon sx={{ color: "black", fontSize: "40px" }} />
-                    <a style={{textDecoration:"none", marginLeft:"20px"}}href="github.com/siddharthsinghvats">  Github</a>
+                    <a style={{textDecoration:"none", marginLeft:"20px"}}href="https://www.github.com/siddharthsinghvats">  Github</a>
                   </li>
                 </ul>
               </p>

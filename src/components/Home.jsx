@@ -46,6 +46,13 @@ const Home = () => {
                   </button>
                   </Link>
                 </li>
+                <li className="main-li">
+                <Link to="/code">
+                  <button className="btn btn-primary know">
+                    Me at Coding<ArrowForwardIosIcon />
+                  </button>
+                  </Link>
+                </li>
               </ul>
             </p>
           </div>

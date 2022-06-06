@@ -91,7 +91,7 @@ const Nav = () => {
               <li className="me-4 nav-item">
               <NavLink to="/poetry" onClick={handleClick}>
         
-              {
+                {
                     ({isActive})=>(
                     <span className={isActive?"active-link":""}>
                      Poetry
@@ -100,7 +100,17 @@ const Nav = () => {
                   
                 </NavLink>
               </li>
-             
+              <li className="me-4 nav-item">
+              <NavLink to="/projects" onClick={handleClick}>
+        
+                {
+                    ({isActive})=>(
+                    <span className={isActive?"active-link":""}>
+                     Projects
+                    </span>)
+                  }  
+                </NavLink>
+              </li>
               
              
             </ul>
