@@ -14,7 +14,7 @@ const Nav = () => {
   }
   return (
     <>
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand-lg sticky-top">
         <div className="container-fluid">
           <NavLink to="/" className="navbar-brand" id="nav-li">
             Dis is Sid

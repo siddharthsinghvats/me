@@ -11,14 +11,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #82dbd8 !important;
   height: 100vh;
+  /* position :absolute; */
+  /* margin-bottom: 2%; */
 }
 
-nav {
-  background-color: #2f8f9d !important;
+.navbar {
+  background-color: #064f5b !important;
   width: 100vw !important;
-  margin: 0 !important;
-  /* margin-bottom: 2%!important; */
-  position: sticky !important;
+  opacity: 0.5!important;
 }
 .nav-item {
   margin-bottom: 20px !important;
@@ -30,7 +30,7 @@ nav a {
   margin-top: 10px !important;
 }
 nav a:hover {
-  color: #013430 !important;
+  color: #fb9a45 !important;
 }
 .navbar-brand {
   color: #0ff6eb !important;
@@ -635,11 +635,11 @@ h3 {
   border: none;
   background: none;
   margin-right: 30px;
-  color: rgb(1, 68, 77);
+  color: rgb(174, 239, 255);
 }
 
 .go-button:hover {
-  color: #81d7e3;
+  color: #df65f7;
 }
 
 .collapse {
