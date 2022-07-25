@@ -41,20 +41,12 @@ const Contact = () => {
                       @siddharth_singh_vats
                     </a>
                   </li>
-                  <li className="main-li">
-                    <WhatsAppIcon sx={{ color: "green", fontSize: "40px" }} />
-                    <span onClick={myFunction} style={{textDecoration:"none",marginLeft:"20px"}}>9984876023</span>
-                  </li>
+                  
                   <li className="main-li">
                     <EmailIcon sx={{ color: "orange", fontSize: "40px" }} />
                     <a style={{textDecoration:"none", marginLeft:"20px"}}href="mailto:lcs2020002@iiitl.ac.in">lcs2020002@iiitl.ac.in</a>
                   </li>
-                  <li className="main-li">
-                    <PhoneAndroidIcon
-                      sx={{ color: "blue", fontSize: "40px" }}
-                    />
-                      <span id="phone" onClick={myFunction} style={{textDecoration:"none",marginLeft:"20px"}}>9984876023</span>
-                  </li>
+                  
                   <li className="main-li">
                     <LinkedInIcon sx={{ color: "darkblue", fontSize: "40px" }} />
                     <a style={{textDecoration:"none", marginLeft:"20px"}}href="https://www.linkedin.com/in/siddharth-singh-813680205/">LinkedIn</a>
