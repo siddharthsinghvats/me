@@ -56,7 +56,7 @@ const Code = () => {
       alert("Could not fetch Codeforces data!");
     });
 
-    fetch("https://codeforces.com/api/user.info?handles=it_is_tough")
+    fetch("https://codeforces.com/api/user.info?handles=trying_n_trying")
     .then(res => res.json())
     .then(
       (res) => {
