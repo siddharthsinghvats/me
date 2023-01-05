@@ -17,9 +17,9 @@ const Leetcode = (props) => {
   const { user,cf ,cfuser} = props;
   const leetdata = [
     ["Level", "Count", { role: "style" }],
-    ["Easy", Number(user.easy_questions_solved), "green"], 
-    ["Medium", Number(user.medium_questions_solved), "darkorange"], 
-    ["Hard", Number(user.hard_questions_solved), "red"]
+    ["Easy", Number(user.easySolved), "green"], 
+    ["Medium", Number(user.mediumSolved), "darkorange"], 
+    ["Hard", Number(user.hardSolved), "red"]
   ];
   const cfdata=[
     ["Rating", "Count", { role: "style" }],
@@ -44,18 +44,21 @@ const Leetcode = (props) => {
               <h2><a style={{textDecoration:"none"}} href="https://leetcode.com/it_is_tough/">Leetcode</a></h2>
             </div>
             <ul>
-              <li>Total problem solved: <strong>{user.total_problems_solved}</strong></li>
+              <li>Total problem solved: <strong>{user.totalSolved}</strong></li>
               <li>
-                Total Easy Solved: <strong>{user.easy_questions_solved}/
-                {user.total_easy_questions}</strong>
+                Total Easy Solved: <strong>{user.easySolved}/
+                {user.totalEasy}</strong>
               </li>
               <li>
-                Total Medium Solved: <strong>{user.medium_questions_solved}/
-                {user.total_medium_questions}</strong>
+                Total Medium Solved: <strong>{user.mediumSolved}/
+                {user.totalMedium}</strong>
               </li>
               <li>
-                Total Hard Solved: <strong>{user.hard_questions_solved}/
-                {user.total_hard_questions}</strong>
+                Total Hard Solved: <strong>{user.hardSolved}/
+                {user.totalHard}</strong>
+              </li>
+              <li>
+                Global Problem Count Ranking: <strong>{user.ranking}</strong>
               </li>
             </ul>
             <div className="charts">
