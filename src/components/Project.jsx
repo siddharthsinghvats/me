@@ -2,7 +2,6 @@ import React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 import "../index.css";
-import profile from "../images/prof.jpeg";
 import cyber from "../images/cybers.png";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
@@ -20,11 +19,11 @@ const Project = (props) => {
             <br/>there are few more to see! !</h3>
             <table className="project-links">
             <tr>
-                <td>Codeforces Profile Fetcher</td>
+                <td>SpotNews</td>
                 <td>
                 <a
                   target="blank"
-                  href="https://frozen-fjord-02824.herokuapp.com/"
+                  href="https://spotnews.netlify.app/"
                 >
                   <LinkIcon /> Website
                 </a>
@@ -32,14 +31,58 @@ const Project = (props) => {
                 <td>
                 <a
                   target="blank"
-                  href="https://github.com/siddharthsinghvats/Codeforces-User-Info"
+                  href="https://github.com/siddharthsinghvats/SpotNews"
                 >
                   <GitHubIcon /> Repo
                 </a>
                 </td>
             </tr>
             <tr>
-                <td>SongMania</td>
+                <td>Guide-N-Glide</td>
+                <td>
+                <a
+                  target="blank"
+                  href="https://guide-n-glide.netlify.app"
+                >
+                  <LinkIcon /> Website
+                </a>
+                </td>
+                <td>
+                <a
+                  target="blank"
+                  href="https://github.com/siddharthsinghvats/guide-n-glide"
+                >
+                  <GitHubIcon /> Repo
+                </a>
+                </td>
+                </tr>
+                <tr>
+                <td>
+             
+
+               Sociate
+                </td>
+                <td>
+                <a
+                  target="blank"
+                  href="https://sociate.netlify.app/"
+                >
+                  <LinkIcon /> Website
+                </a>
+                </td>
+                <td>
+                <a
+                  target="blank"
+                  href="https://github.com/siddharthsinghvats/sociate-frontend"
+                >
+                  <GitHubIcon /> Repo
+                </a>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                SongMania
+                </td>
                 <td>
                 <a
                   target="blank"
@@ -52,50 +95,6 @@ const Project = (props) => {
                 <a
                   target="blank"
                   href="https://github.com/siddharthsinghvats/SongMania"
-                >
-                  <GitHubIcon /> Repo
-                </a>
-                </td>
-                </tr>
-                <tr>
-                <td>
-             
-
-                BMI Calculator
-                </td>
-                <td>
-                <a
-                  target="blank"
-                  href="https://siddharthsinghvats.github.io/BMICalculator/"
-                >
-                  <LinkIcon /> Website
-                </a>
-                </td>
-                <td>
-                <a
-                  target="blank"
-                  href="https://github.com/siddharthsinghvats/BMICalculator"
-                >
-                  <GitHubIcon /> Repo
-                </a>
-                </td>
-                </tr>
-                <tr>
-                <td>
-                Memory Game
-                </td>
-                <td>
-                <a
-                  target="blank"
-                  href="https://siddharthsinghvats.github.io/Memory-Game/"
-                >
-                  <LinkIcon /> Website
-                </a>
-                </td>
-                <td>
-                <a
-                  target="blank"
-                  href="https://github.com/siddharthsinghvats/Memory-Game"
                 >
                   <GitHubIcon /> Repo
                 </a>
