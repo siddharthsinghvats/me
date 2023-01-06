@@ -2,7 +2,6 @@ import React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 import "../index.css";
-import profile from "../images/prof.jpeg";
 import auth from "../images/auth.png";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
@@ -110,10 +109,6 @@ const Poetry = (props) => {
                   You slipped off the path and almost gave up,<br/>
                   But the god wanted to sketch your own path ,<br/>
                   And not just to follow what others drew.
-                </li>
-                <li>
-                  While I am looking through the window,<br/>
-                  Feeling like my fear again wants to grow.
                 </li>
                 <li>
                   You always felt sad and it was all gloomy, <br/>
