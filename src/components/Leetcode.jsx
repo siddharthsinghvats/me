@@ -41,7 +41,7 @@ const Leetcode = (props) => {
           <div className="cp1">
             <div className="icon">
               <img src={leet} alt="leetcode" />
-              <h2><a style={{textDecoration:"none"}} href="https://leetcode.com/it_is_tough/">Leetcode</a></h2>
+              <h2><a style={{textDecoration:"none"}} href="https://leetcode.com/life_is_lie/">Leetcode</a></h2>
             </div>
             <ul>
               <li>Total problem solved: <strong>{user.totalSolved}</strong></li>
