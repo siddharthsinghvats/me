@@ -15,7 +15,7 @@ const Code = () => {
   const [cfuser,setCfuser] =useState({});
   const [loading,setLoading]=useState(true);
   useEffect(()=>{
-    fetch("https://leetcode-stats-api.herokuapp.com/it_is_tough")
+    fetch("https://leetcode-stats-api.herokuapp.com/life_is_lie")
     .then(res => res.json())
     .then(
       (result) => {
