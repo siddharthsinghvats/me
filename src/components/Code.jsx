@@ -27,7 +27,7 @@ const Code = () => {
       alert("Could not fetch leetcode data!");
     });
 
-    fetch("https://codeforces.com/api/user.status?handle=vecna")
+    fetch("https://codeforces.com/api/user.status?handle=Neembu_Mirch")
     .then(res => res.json())
     .then(
       (res) => {
@@ -55,7 +55,7 @@ const Code = () => {
       alert("Could not fetch Codeforces data!");
     });
 
-    fetch("https://codeforces.com/api/user.info?handles=vecna")
+    fetch("https://codeforces.com/api/user.info?handles=Neembu_Mirch")
     .then(res => res.json())
     .then(
       (res) => {
