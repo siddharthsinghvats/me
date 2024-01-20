@@ -10,7 +10,7 @@ const Image = (props) => {
   return (
     <>
         <div className="gallery-item">
-            <img src={`https://drive.google.com/uc?export=view&id=${props.id}`}/> 
+            <img src={`https://lh3.google.com/u/0/d/${props.id}`}/> 
         </div>
     </>
   );
